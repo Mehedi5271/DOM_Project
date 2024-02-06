@@ -1,5 +1,13 @@
-function sleep(names){
-    console.log(names +' is my name');
+// function sleep(names){
+//     console.log(names +' is my name');
+// }
+// sleep('mehedi');
+// sleep('hoda');
+
+function myfunction(a,b){
+    return a*b;
+
 }
-sleep('mehedi');
-sleep('hoda');
+
+let x = myfunction(5,5);
+console.log(x);
