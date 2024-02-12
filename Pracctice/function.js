@@ -11,3 +11,10 @@ function myfunction(a,b){
 
 let x = myfunction(5,5);
 console.log(x);
+
+hello = ()=> {
+    return 'hello mehedi';
+}
+
+const print = hello();
+console.log(print);
